@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Banc_Gothic;
+    src: url(/fonts/Banck_Gothic/Bank_Gothic.woff2) format("woff2"), url(/fonts/Banck_Gothic/Bank_Gothic.woff2) format("woff");
+}
+body {
+  margin: 20px;
+  font-family: Banc_Gothic;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 10px;
+  font-family: Banc_Gothic;
+  text-align: center;
+  text-shadow: 3px 3px 5px #ac3d3d;
+  color: #161414;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+section {
+  margin: 20px 0;
+}
+footer {
+  background-color: #f2f2f2;
+  bottom: 0;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  font-family: Banc_Gothic;
+  left: 0;
+  width: 100%;
+
+}
+
+/* Стили для блока с кнопкой "Выход из системы" */
+.logout-container {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.logout-button {
+  background-color: #dc3545; /* Цвет фона кнопки */
+  color: #fff; /* Цвет текста кнопки */
+  padding: 10px 20px; /* Внутренние отступы кнопки */
+  border: none;
+  border-radius: 5px; /* Закругленные углы кнопки */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background-color: #c82333; /* Цвет фона кнопки при наведении */
+}
+
+
+.clear {
+    clear: both;
+}
+
+
+
+
+
+.fail {
+    font-family: Banc_Gothic;
+    text-align: center;
+   ;
+    color: #850a0a;
+}
+
+
+
+
+
+
+
